@@ -1,0 +1,93 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+  margin-top:   50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.container{
+  background-color: #00000096; /*grigio*/
+  border-radius: 15px;
+  padding: 100px;
+
+}
+
+header{
+  text-align: center;
+  color: #1EC31E; /*verde*/
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+nav{
+  padding: 10px;
+  text-align: center;
+  background-color: #1EC31E; /*verde*/
+}
+
+main{
+  color: white;
+}
+
+ .monopattino{
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.monopattino > .monopattino-name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.monopattino > .distanza{
+  font-weight: 400;
+  display:block;
+}
+
+.arrow:before{
+  content: "\21A6"; /*freccia*/
+}
+
+.metri{
+  font-weight: 500;
+  color: #F5B453; /*giallo*/
+}
+
+
+/* barre stato di carica */
+
+.full-bar{
+  width: 50%;
+  height: 25px;
+  text-align: left;
+  background-color: #1EC31E; /*verde*/
+  border-radius: 6px;
+}
+
+.med-bar{
+  width: 30%;
+  height: 25px;
+  text-align: left;
+  background-color: #F5B453; /*giallo*/
+  border-radius: 6px;
+}
+
+.low-bar{
+  width: 20%;
+  height: 25px;
+  text-align: left;
+  background-color: #BE4141; /*rosso*/
+  border-radius: 6px;
+}
